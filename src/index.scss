@@ -1,0 +1,9 @@
+$background-image: url("sky3.jpg");
+$font-colour: black;
+
+body {
+  background-image: $background-image;
+  background-size: 1600px;
+  font-family: 'Roboto Mon0', monospace;
+  color: $font-colour;
+}

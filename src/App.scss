@@ -1,0 +1,25 @@
+
+.case {
+  border: 2px solid rgb(20, 20, 20);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  margin: auto;
+  padding: 5px;
+  background-color: rgb(247, 247, 255);
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+#screen {
+  background-color: #e0dadae0;
+  margin-bottom: 3px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+}
